@@ -1,0 +1,175 @@
+/*
+Theme Name: wp project
+Author: Annie Ekblom, Eliise Antropov, Stefanie Müller
+Description: A theme to present creative work
+Text Domain: Annie-Portfolio
+*/
+
+
+//---------------WIDGET---------------
+
+#gallery-1 img {
+	width: 80%;
+	height: 80%;
+}
+
+.gallery-item dd {
+	font-size: 20px;
+}
+
+#gallery-1 .gallery-item {
+	margin-top: 40px;
+}
+
+#gallery-1 {
+	padding-top: 40px;
+}
+
+.image {
+	 padding-top: 15px;
+}
+
+.padding {
+	padding: 40px;
+    text-align: -webkit-center;
+}
+
+#content2 {
+	background-color: #222;
+}
+
+span#widget section{
+	text-align: center;
+	width: 90%;
+    padding: 20px;
+}
+
+span#widget {
+	background-color: red;
+}
+
+.widget-title {
+	font-family: 'Lato';
+	font-size: 25px;
+	color: #000;
+	margin: 0;
+}
+
+.textwidget p {
+	color: #000;
+	font-size: 15px;
+}
+
+.textwidget {
+	max-height: 500px;
+	font-family: 'Lato';
+	font-size: 25px;
+	overflow-y: scroll;
+}
+
+
+#footer-background{
+    background-color: #202020;
+    padding: 40px;
+    text-align: center;
+}
+
+
+#pagecontainer{
+    max-width: 960px;
+	margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+
+#footer-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-flex-image {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+a{
+    color: #ffffff;
+}
+
+#footer-text{
+    font-family: 'Allura';
+    font-style: italic;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+header {
+	margin: 0 auto;
+	/*padding: 50px;*/
+	background-image: url("img/bg_logo.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh; 
+	background-size: 100%;
+	text-align: center;
+}
+
+#page-header {
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#page-header #logo {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 150px;
+}
+
+#box-container {
+    overflow: hidden;
+}
+
+.square-box {
+	width: 50%;
+	height: 500px;
+	float: left;
+	font-family: 'Allura';
+	font-size: 48px;
+	margin: 0;
+	padding: 0;
+	color: #f7f8f1;
+}
+
+.square-box h2 {
+	margin: 250px 0;
+	padding: 0;
+	text-align: center;
+}
+
+#title1 {
+	background-color: #939aa4;
+}
+
+#title2 {
+	background-color: #424f67;
+}
+
+#title3 {
+	background-color: #202b40;
+}
+
+#content2 {
+	background-image: url("headerimg.jpg");
+}
+
+body {
+    margin: 0px;
+    font-family: 'Allura', cursive;
+}
