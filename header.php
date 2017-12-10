@@ -13,6 +13,6 @@
 
 <header>
 	<div id="page-header">
-<!-- 		<img id="logo" src="img/hint-yellow.png"> -->
+<?php the_custom_logo(); ?>
 	</div>	
 </header>

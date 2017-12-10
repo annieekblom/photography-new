@@ -5,6 +5,13 @@ Description: A theme to present creative work
 Text Domain: Annie-Portfolio
 */
 
+.nf-form-cont {
+	color: black;
+	font-size: 20px;
+	font-family: arial;
+	padding: 15px;
+	width: 300px;
+}
 
 //---------------WIDGET---------------
 
@@ -15,6 +22,7 @@ Text Domain: Annie-Portfolio
 
 .gallery-item dd {
 	font-size: 20px;
+	margin-top: -10px;
 }
 
 #gallery-1 .gallery-item {
@@ -22,7 +30,7 @@ Text Domain: Annie-Portfolio
 }
 
 #gallery-1 {
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .image {
