@@ -5,6 +5,204 @@ Description: A theme to present creative work
 Text Domain: Annie-Portfolio
 */
 
+//NAV
+
+.page-nav {
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.page-nav ul {
+	margin: 0;
+	padding: 0px 0px 20px;
+}
+
+.page-nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.page-nav ul li{
+	margin: 0px 10px;
+}
+
+.page-nav ul li a {
+	display: block;
+	padding: 10px 18px;
+	/*border: 1px solid #ffffff;*/
+	/*background-color: rgba(255, 255, 255, 0.3);*/
+
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Lato';
+	color: #ffffff;
+}
+
+.page-nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	transition: 0.4s;
+	border: none;
+	color: #fff;
+}
+
+.page-nav ul li.current-menu-item a {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: #fff;
+}
+
+
+//WP FORMS
+
+.wpforms-form {
+	padding: 20px !important;
+}
+.submit {
+	background-color: #202020 !important;
+	font-size: 14px !important;
+	color: #ffffff !important;
+}
+.wpforms-field-label, .wpforms-title {
+	color: #202020 !important;
+	font-family: 'Lato' !important;
+}
+.submit {
+	border: none !important;
+}
+
+#content3 {
+	background-color: #f6f6f6 !important;
+	position: relative !important;
+}
+.wpforms-field-label {
+	color: #202020 !important;
+}
+
+#wpforms-confirmation-container-full {
+	
+}
+
+.wpforms-confirmation-container-full{
+	background-color: transparent !important;
+  	background: none !important;
+	border: none !important;
+	font-family: 'Lato' !important;
+	font-size: 20px !important;
+	text-align: center !important;
+	top: 50% !important;
+	left: 50% !important;
+	position: absolute !important;
+	padding: 0px 15px !important;
+	margin: 0px !important;
+	transform: translate(-50%, -50%);
+}
+
+.wpforms-error {
+	font-family: 'Lato' !important;
+}
+
+.wpforms-field-medium,.submit{
+	border-radius: 5px !important;
+}
+
+
+//next thing
+
+#tags {
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+.boxlink {
+    float: left;
+    width: 48%;
+    height: 31%;
+    background-color: #333;
+    margin: 7px 0 0 7px;
+    text-align: center;
+
+}
+
+.types span a {
+	text-decoration: none;
+	font-family: 'Lato';
+	font-weight: lighter;
+	color: #fff;
+	font-size: 40px;
+}
+
+//POST GRID----------------------------
+
+.squareImg {
+	width: 300px;	
+	height: 300px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+	width: 100%;
+	height: auto;
+}
+
+.grid-thumbnail {
+	text-align: center;
+	max-height: 400px;
+
+}
+
+.gridBox {
+   margin: 0 auto;
+   width: 100%;
+}
+
+.gridBox .grid-header{
+   border-bottom: 1px solid #DFDDD5;
+   margin-bottom: 20px;
+   padding-bottom: 10px;
+}
+
+.gridBox .boxes-container{ 
+	overflow: hidden;
+	float: left;
+	width: 32%;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+
+
+.gridBox .boxes-container .grid-boxes{
+   float: left;
+   background: #fff;
+   padding: 6px;
+   max-width: 100%;
+   height: 100%;
+   border: 1px solid #DFDDD5;
+   border-style: none;
+}
+
+
+.gridBox .boxes-container .grid-boxes .grid-title{
+   text-align: center;
+   margin-bottom: 0 !important;
+   padding: 8px 0 6px 0;
+   font-size: 14px;
+}
+
+.grid-boxes {
+	float: none;
+
+}
+
 .nf-form-cont {
 	color: black;
 	font-size: 20px;
@@ -91,19 +289,30 @@ span#widget {
 }
 
 
-#footer-flex-container{
-    display: flex;
-    justify-content: center;
-}
-
-.footer-flex-image {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px;
+footer {
+	overflow: hidden;
+	clear: both;
 }
 
 a{
-    color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#social-nav ul li {
+	padding: 0px 10px;
+	list-style-type: none;
+}
+
+#social-nav ul li a:hover {
+	color: red;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	padding-left: 0px !important;
 }
 
 #footer-text{
@@ -118,7 +327,7 @@ a{
 header {
 	margin: 0 auto;
 	/*padding: 50px;*/
-	background-image: url("img/bg_logo.png");
+	background-image: url("img/headerimg.JPG");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -177,7 +386,13 @@ header {
 	background-image: url("headerimg.jpg");
 }
 
+.padding3 {
+	padding: 40px 40px 0px 40px !important;
+}
+
+
 body {
     margin: 0px;
     font-family: 'Allura', cursive;
 }
+

@@ -3,10 +3,10 @@
 function custom_post_type() {
 
 	$labels = array(
-		'name'                  => _x( 'Post Types', 'Post Type General Name', 'text_domain' ),
-		'singular_name'         => _x( 'Post Type', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'             => __( 'Post Types', 'text_domain' ),
-		'name_admin_bar'        => __( 'Post Type', 'text_domain' ),
+		'name'                  => _x( 'Photography', 'Post Type General Name', 'text_domain' ),
+		'singular_name'         => _x( 'Photography', 'Post Type Singular Name', 'text_domain' ),
+		'menu_name'             => __( 'Photography', 'text_domain' ),
+		'name_admin_bar'        => __( 'Photography', 'text_domain' ),
 		'archives'              => __( 'Item Archives', 'text_domain' ),
 		'attributes'            => __( 'Item Attributes', 'text_domain' ),
 		'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
@@ -32,11 +32,12 @@ function custom_post_type() {
 		'filter_items_list'     => __( 'Filter items list', 'text_domain' ),
 	);
 	$args = array(
-		'label'                 => __( 'Post Type', 'text_domain' ),
-		'description'           => __( 'Post Type Description', 'text_domain' ),
+		'label'                 => __( 'Photography', 'text_domain' ),
+		'description'           => __( 'Photography Type', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail' ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
+		'taxonomies'            => array( 'country'),
+		'menu_icon'             => 'dashicons-images-alt2',
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -50,9 +51,9 @@ function custom_post_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'post_type', $args );
+	register_post_type( 'Photography', $args );
 
 }
-add_action( 'init', 'custom_post_type', 0 );
+add_action( 'init', 'custom_post_type'	, 0 );
 
 ?>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+header<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Carmen Müller</title>
@@ -14,5 +14,8 @@
 <header>
 	<div id="page-header">
 <?php the_custom_logo(); ?>
-	</div>	
+	</div>
+	<nav class="page-nav">
+			<?php wp_nav_menu( array( 'theme_location' => 'page-menu' ) ); ?>
+		</nav>	
 </header>

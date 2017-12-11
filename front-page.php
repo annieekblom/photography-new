@@ -1,3 +1,4 @@
+front-page
 <?php get_header();?>
 
 <body>
@@ -17,7 +18,10 @@
 		</div>
 		<div class="square-box" id="content2">
 			<div class="padding2">
-					<?php dynamic_sidebar('gallery'); ?>
+				<div class="types">
+ 			 	<?php get_template_part("partials/content"); ?>
+ 			 	
+				</div>
 			</div>
 		</div>
 		<div class="square-box" id="title3">
