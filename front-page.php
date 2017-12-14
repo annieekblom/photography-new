@@ -1,10 +1,9 @@
-front-page
+<p style="display: none">don't remove this tag</p>
 <?php get_header();?>
 
-<body>
 	<div id="box-container">
 		<div class="square-box" id="title1">
-			<h2>About</h2>
+			<a href="#about"><h2>About</h2></a>
 		</div>
 		<div class="square-box" id="content1">
 			<span id="widget">
@@ -14,7 +13,7 @@ front-page
 			</span>
 		</div>
 		<div class="square-box" id="title2">
-			<h2>Work</h2>
+			<a href="#work"><h2>Work</h2></a>
 		</div>
 		<div class="square-box" id="content2">
 			<div class="padding2">
@@ -25,7 +24,7 @@ front-page
 			</div>
 		</div>
 		<div class="square-box" id="title3">
-			<h2>Content</h2>
+			<a href="#contact"><h2>Contact</h2></a>
 		</div>
 		<div class="square-box" id="content3">
 			<div class="padding3">

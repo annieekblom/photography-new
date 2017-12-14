@@ -1,4 +1,4 @@
-header<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Carmen Müller</title>
@@ -8,9 +8,10 @@ header<!DOCTYPE html>
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php wp_head(); ?>
 </head>
-
+<body>
 <header>
 	<div id="page-header">
 <?php the_custom_logo(); ?>
@@ -19,3 +20,4 @@ header<!DOCTYPE html>
 			<?php wp_nav_menu( array( 'theme_location' => 'page-menu' ) ); ?>
 		</nav>	
 </header>
+<div id="wrapper-around">

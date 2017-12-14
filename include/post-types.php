@@ -35,7 +35,7 @@ function custom_post_type() {
 		'label'                 => __( 'Photography', 'text_domain' ),
 		'description'           => __( 'Photography Type', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'author'),
 		'taxonomies'            => array( 'country'),
 		'menu_icon'             => 'dashicons-images-alt2',
 		'hierarchical'          => false,

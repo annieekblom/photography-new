@@ -4,7 +4,9 @@
                 'hide_empty' => true ));
 
                     foreach($terms as $value) { ;?>
-                    <span id="tags"><div class="boxlink"><a href="/country/<?php echo $value->slug ?>">
- 					<?php echo $value->name ;?> </a></div></span>
+                    <div class="boxlink"><div class="boxlink-inside"><a href="/country/<?php echo $value->slug ?>">
+ 					<?php echo $value->name ;?> </a></div></div>
  					<?php } ;?>
 
+
+<!-- removed the span around the div -->
